@@ -9,10 +9,8 @@ Iris, a publicly available dataset was used for this project and downloaded and 
 
 The predictions made are also displayed validating the model.
 
+![iris 4](https://github.com/tofunmiabegunrin/NANO-706/blob/2ba06d16d99904035933cc4b4d4e9525ed0553c2/iris%204.png)
 
-
-
-The data was split into training (X_train, y_train) and testing (X_test, y_test) sets. Each model was trained on the complete feature set of the training data and evaluated using the accuracy metric on the test data. 
 
 Results and Conclusion
 The MLP Classifier achieved the highest accuracy, closely followed by the Random Forest model.
@@ -24,6 +22,7 @@ MLP Accuracy: 97.34%
 
 
  
+
 
 
 Face Detection with YOLOv5 Readme
