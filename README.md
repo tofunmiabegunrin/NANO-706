@@ -1,5 +1,5 @@
 # NANO-706
-A short project on machine learning classifier and Yolov5 image detection 
+# A short project on machine learning classifier and Yolov5 image detection 
 Project Title: Machine Learning Classifier Code
 This code compares the performance of three different machine learning classifiers: Random Forest, Logistic Regression, and a Multi-layer Perceptron (MLP) Neural Network on a supervised learning task.
 
