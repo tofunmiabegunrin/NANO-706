@@ -20,23 +20,26 @@ MLP Classifier	max_iter=1200	A simple neural network to explore non-linear capab
 Results and Conclusion
 The MLP Classifier achieved the highest accuracy, closely followed by the Random Forest model.
 Classifier	Accuracy
-MLP (Neural Network)	97.58%
-Random Forest	96.75%
-Logistic Regression	92.02%
-Conclusion: Both the Random Forest and the MLP models demonstrated superior performance compared to the linear Logistic Regression baseline. The MLP Classifier provided the best generalization capability on the test dataset.
+Logistic Regression Accuracy: 92.02%
+Random Forest Accuracy: 96.75%
+MLP Accuracy: 97.34%
+
+
  
 
 
-📸YOLOv5 Face Detection Readme
+Face Detection with YOLOv5 Readme
 This script utilizes the YOLOv5s model for object detection, specifically to detect faces within an image.
 Goal: To visually confirm that the YOLOv5s model successfully identifies and localizes objects (faces) in the input image.
 
-🛠️ Execution Steps
+Execution Steps
 The code performs the following actions:
 1.	Model Loading: The pre-trained YOLOv5 model is loaded. 
 2.	Image Input: The input image, named tofunmi.jpg, is specified. This image is accessible within the YOLOv5 file pathway.
 3.	Inference: The model runs inference (results = model(img)), processing the image to identify and localize objects (faces).
 4.	Visualization: The results are displayed (results.show()), showing the original image with bounding boxes drawn around the detected objects.
+
+5.	
 Conclusion: The image detection is successfully executed and detected the loaded picture as a person with 85% accuracy. It also detects partially some other objects in the background which are a desktop screen (identified as laptop – 40%), a shape (identified as a bird – 26%) on the patterned shirt in the image.
  
 
