@@ -5,7 +5,7 @@ This code compares the performance of three different machine learning classifie
 Methodology
 Iris, a publicly available dataset was used for this project and downloaded and processed through the ucilmrepo as shown below. 
 
-!iris 1.png
+![iris 1](https://github.com/tofunmiabegunrin/NANO-706/blob/f84f4c36a59ff46b72a85ad1d431f8832c6dc904/iris%201.png)
 The predictions made are also displayed validating the model.
 
 
