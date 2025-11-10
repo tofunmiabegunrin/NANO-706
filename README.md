@@ -2,7 +2,8 @@
 # A short project on machine learning classifier and Yolov5 image detection 
 
 
-Project Title: Machine Learning Classifier Code
+ 
+# Machine Learning Classifier Code
 This code compares the performance of three different machine learning classifiers: Random Forest, Logistic Regression, and a Multi-layer Perceptron (MLP) Neural Network on a supervised learning task.
 
 Iris, a publicly available dataset was used for this project and downloaded and processed through the ucilmrepo as shown below. 
@@ -14,12 +15,14 @@ The predictions made are also displayed validating the model.
 ![iris 4](https://github.com/tofunmiabegunrin/NANO-706/blob/2ba06d16d99904035933cc4b4d4e9525ed0553c2/iris%204.png)
 
 
-Results and Conclusion
+# Results and Conclusion
 The MLP Classifier achieved the highest accuracy, closely followed by the Random Forest model.
 
-Classifier	Accuracy
+
 Logistic Regression Accuracy: 92.02%
+
 Random Forest Accuracy: 96.75%
+
 MLP Accuracy: 97.34%
 
 
@@ -27,7 +30,7 @@ MLP Accuracy: 97.34%
 
 
 
-Face Detection with YOLOv5 Readme
+# Face Detection with YOLOv5 Readme
 
 Goal: To visually confirm that the YOLOv5s model successfully identifies and localizes objects (faces) in the input image.
 
