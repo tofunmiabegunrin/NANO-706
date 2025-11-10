@@ -2,23 +2,21 @@
 A short project on machine learning classifier and Yolov5 image detection 
 Project Title: Machine Learning Classifier Code
 This code compares the performance of three different machine learning classifiers: Random Forest, Logistic Regression, and a Multi-layer Perceptron (MLP) Neural Network on a supervised learning task.
-Methodology
+
 Iris, a publicly available dataset was used for this project and downloaded and processed through the ucilmrepo as shown below. 
 
 ![iris 1](https://github.com/tofunmiabegunrin/NANO-706/blob/f84f4c36a59ff46b72a85ad1d431f8832c6dc904/iris%201.png)
+
 The predictions made are also displayed validating the model.
 
 
 
 
-The data was split into training (X_train, y_train) and testing (X_test, y_test) sets. Each model was trained on the complete feature set of the training data and evaluated using the accuracy metric on the unseen test data. I varied the iterations on the logistic regression and MLP neural network with similar accuracy results obtained. 
+The data was split into training (X_train, y_train) and testing (X_test, y_test) sets. Each model was trained on the complete feature set of the training data and evaluated using the accuracy metric on the test data. 
 
-Classifier	Configuration	Purpose
-Random Forest	n_estimators=100, random_state=42	Ensemble of decision trees for robust classification.
-Logistic Regression	max_iter=1200	Linear classification model used as a baseline.
-MLP Classifier	max_iter=1200	A simple neural network to explore non-linear capabilities.
 Results and Conclusion
 The MLP Classifier achieved the highest accuracy, closely followed by the Random Forest model.
+
 Classifier	Accuracy
 Logistic Regression Accuracy: 92.02%
 Random Forest Accuracy: 96.75%
@@ -29,7 +27,7 @@ MLP Accuracy: 97.34%
 
 
 Face Detection with YOLOv5 Readme
-This script utilizes the YOLOv5s model for object detection, specifically to detect faces within an image.
+
 Goal: To visually confirm that the YOLOv5s model successfully identifies and localizes objects (faces) in the input image.
 
 Execution Steps
