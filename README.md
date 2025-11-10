@@ -3,8 +3,8 @@
 
 
  
-# Machine Learning Classifier Code
-This code compares the performance of three different machine learning classifiers: Random Forest, Logistic Regression, and a Multi-layer Perceptron (MLP) Neural Network on a supervised learning task.
+# Machine Learning Classifier 
+This project compares the performance of three different machine learning classifiers: Random Forest, Logistic Regression, and a Multi-layer Perceptron (MLP) Neural Network on a supervised learning task.
 
 Iris, a publicly available dataset was used for this project and downloaded and processed through the ucilmrepo as shown below. 
 
