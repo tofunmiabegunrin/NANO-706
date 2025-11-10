@@ -39,7 +39,7 @@ The code performs the following actions:
 3.	Inference: The model runs inference (results = model(img)), processing the image to identify and localize objects (faces).
 4.	Visualization: The results are displayed (results.show()), showing the original image with bounding boxes drawn around the detected objects.
 
-5.	
+5.	iris 2.png
 Conclusion: The image detection is successfully executed and detected the loaded picture as a person with 85% accuracy. It also detects partially some other objects in the background which are a desktop screen (identified as laptop – 40%), a shape (identified as a bird – 26%) on the patterned shirt in the image.
  
 
