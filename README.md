@@ -3,8 +3,12 @@ A short project on machine learning classifier and Yolov5 image detection
 Project Title: Machine Learning Classifier Code
 This code compares the performance of three different machine learning classifiers: Random Forest, Logistic Regression, and a Multi-layer Perceptron (MLP) Neural Network on a supervised learning task.
 Methodology
+Iris, a publicly available dataset was used for this project and downloaded and processed through the ucilmrepo as shown below. 
 
-<img width="236" height="97" alt="Picture1" src="https://github.com/user-attachments/assets/1457f88d-154e-4c70-acce-7a7716e9303e" />
+
+The predictions made are also displayed validating the model.
+
+
 
 
 The data was split into training (X_train, y_train) and testing (X_test, y_test) sets. Each model was trained on the complete feature set of the training data and evaluated using the accuracy metric on the unseen test data. I varied the iterations on the logistic regression and MLP neural network with similar accuracy results obtained. 
